@@ -35,8 +35,7 @@ const handleCheckbox = () => {
 
 const generatePassword = () => {
   const passwordEl = getElement("password");
-  // console.log(passwordEl)
-
+  
   const charCount = getElement("char-count").innerText;
   console.log(charCount)
 
